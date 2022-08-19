@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Barlow" sans-serif;
+	line-height: 1.7;
+	width: 100%;
+}
+
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+img{
+	width: 10em;
+}
+
+a{
+	color: blue;
+	font-size: 18px;
+}
+
+#top{
+	background: linear-gradient(rgba(4, 4, 4, 0.8),rgba(4, 4, 4, 2)), url(../img/bg_2.jpg);
+	background-position: cover;
+	background-size: cover;
+
+}
+#top-service{
+	background: linear-gradient(rgba(4, 4, 4, 0.6),rgba(4, 4, 4, 2)), url(../img/bg_1.jpg);
+	background-position: cover;
+	background-size: cover;
+
+}
+#top-works{
+	background: linear-gradient(rgba(4, 4, 4, 0.8),rgba(4, 4, 4, 2)), url(../img/project2.jpg);
+	background-position: cover;
+	background-size: cover;
+}
+#top-contact{
+	background: linear-gradient(rgba(4, 4, 4, 0.6),rgba(4, 4, 4, 2)), url(../img/contact1.jpg);
+	background-position: cover;
+	background-size: cover;
+}
+#solo{
+	letter-spacing: 9px;
+}
+@media(max-width: 990px){
+	.top{
+		height: 114vh;
+	}
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: 700;
+}
+.nav-link{
+
+	color: black;
+}
+.nav-link:hover{
+	color: blue;
+}
+
+
+
+
+
+/* Button */
+
+.btn-brand{
+	background:#3DDC84;
+	padding: 10px 30px;
+	font-weight: 500;
+}
+.contact{
+	background:#3DDC84;
+	padding: none;
+	font-weight: 0;
+}
+.holder{
+	border: 1px solid;
+	width: 20em;
+	height: 50vh;
+	background:#3DDC84;
+	border-radius: 100%;
+	
+}
+
+/*About*/
+
+#About{
+
+	padding-top: 30px;
+	font-weight: 400;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+#About i{
+	color: white;
+	font-size: 24px;
+	
+}
+
+#About span{
+	color: black;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration-style: do;
+}
+
+
+
+/*Services*/
+
+#hover:hover{
+	background-color: black;
+	color: white;
+	transition: 0.4s ease-in;
+	border-color: white;
+	font-size: 22px;
+}
+ #Services{
+ 	background-color: white;
+ 	padding-top: 30px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+
+ }
+  #Services p{
+  	font-size: 14px;
+  	margin-top: 30px;
+
+  }
+
+  .service-content{
+  	position: relative;
+  	background: white;
+  	border-radius: 16px;
+  	box-shadow: inset 4px 4px 4px rgba(0, 0, 0.6), inset -4px -4px 4px rgba(0, 0, 0.6);
+  }
+
+  
+
+
+/*Products*/
+
+#product{
+	background: white;
+	margin-top: 30px;
+	padding-left: 10px; 
+ 	padding-right: 10px;
+}
+.products{
+	background: white;
+	border: 2px solid 	#006B3C;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	box-shadow:  -16px -16px 1px blue;
+	
+}
+/*.products:hover{
+	transition: 0.8s ease-in;
+	background: #00563F;
+	color: white;
+}*/
+#product i{
+
+	color: green;
+}
+
+/*Contact*/
+
+.contact-content{
+
+}
+
+
+
+#contact i{
+	font-size: 24px;
+	padding: 4px;
+	color: white;
+	justify-content: center;
+}
+
+footer h6{
+	font-size: 14px;
+	color: white;
+	margin-bottom: 0;
+}
+.social-links a{
+	color: blue;
+	font-size: 24px;
+	margin-right: 20px;
+}
+
+footer p{
+	font-size: 12px;
+}
+
+input,textarea{
+	width: 100%;
+	font-size: 14px;
+	color:#00563F;
+	font-weight: 600;
+	margin-top: 10px;
+	padding: 3px;
+
+}
+
+#placeholder{
+	color: red;
+}
+
+
+
+
+@media(max-width: 700px){
+	.holder{
+	display: none;
+}	
+}
